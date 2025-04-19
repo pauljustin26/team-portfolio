@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import ScrollUpButton from "../components/ScrollUpButton";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules"; // new
+import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -29,10 +29,10 @@ function AllProjects() {
         "A real-time eyelid detection system designed to prevent driver drowsiness using an Arduino and Python, enhancing road safety.",
       techStack: ["Python", "Arduino"],
       images: [
-        "/portfolio/assets/images/eye-c-you/1.jpg",
-        "/portfolio/assets/images/eye-c-you/2.jpg",
-        "/portfolio/assets/images/eye-c-you/3.jpg",
-        "/portfolio/assets/images/eye-c-you/4.jpg",
+        "/assets/images/eye-c-you/1.jpg",
+        "/assets/images/eye-c-you/2.jpg",
+        "/assets/images/eye-c-you/3.jpg",
+        "/assets/images/eye-c-you/4.jpg",
       ],
 
       sourceCodeUrl: "https://github.com/jaencna/Eye-C-You",
@@ -43,15 +43,15 @@ function AllProjects() {
         "A comprehensive management and grading system for CVSU that integrates student performance tracking and administrative features.",
       techStack: ["Java", "GUI"],
       images: [
-        "/portfolio/assets/images/cvsu-management-system/1.png", 
-        "/portfolio/assets/images/cvsu-management-system/1-1.png",
-        "/portfolio/assets/images/cvsu-management-system/1-2.png", 
-        "/portfolio/assets/images/cvsu-management-system/2.png", 
-        "/portfolio/assets/images/cvsu-management-system/2-1.png", 
-        "/portfolio/assets/images/cvsu-management-system/2-2.png", 
-        "/portfolio/assets/images/cvsu-management-system/3.png", 
-        "/portfolio/assets/images/cvsu-management-system/3-1.png", 
-        "/portfolio/assets/images/cvsu-management-system/3-2.png", 
+        "/assets/images/cvsu-management-system/1.png", 
+        "/assets/images/cvsu-management-system/1-1.png",
+        "/assets/images/cvsu-management-system/1-2.png", 
+        "/assets/images/cvsu-management-system/2.png", 
+        "/assets/images/cvsu-management-system/2-1.png", 
+        "/assets/images/cvsu-management-system/2-2.png", 
+        "/assets/images/cvsu-management-system/3.png", 
+        "/assets/images/cvsu-management-system/3-1.png", 
+        "/assets/images/cvsu-management-system/3-2.png", 
       ],
       sourceCodeUrl: "https://github.com/jaencna/CVSU-Grading-System",
     },
@@ -61,22 +61,22 @@ function AllProjects() {
         "A sports management platform that facilitates team management, event scheduling, and athlete performance tracking.",
       techStack: ["HTML & CSS", "Bootstrap", "PHP", "MySQL"],
       images: [
-        "/portfolio/assets/images/cvsu-sports-management/1.png", 
-        "/portfolio/assets/images/cvsu-sports-management/2.png", 
-        "/portfolio/assets/images/cvsu-sports-management/3.png", 
-        "/portfolio/assets/images/cvsu-sports-management/4.png", 
-        "/portfolio/assets/images/cvsu-sports-management/5.png", 
-        "/portfolio/assets/images/cvsu-sports-management/6.png", 
-        "/portfolio/assets/images/cvsu-sports-management/7.png", 
-        "/portfolio/assets/images/cvsu-sports-management/8.png", 
-        "/portfolio/assets/images/cvsu-sports-management/9.png", 
-        "/portfolio/assets/images/cvsu-sports-management/10.png", 
-        "/portfolio/assets/images/cvsu-sports-management/11.png", 
-        "/portfolio/assets/images/cvsu-sports-management/12.png", 
-        "/portfolio/assets/images/cvsu-sports-management/13.png", 
-        "/portfolio/assets/images/cvsu-sports-management/14.png", 
-        "/portfolio/assets/images/cvsu-sports-management/15.png", 
-        "/portfolio/assets/images/cvsu-sports-management/16.png", 
+        "/assets/images/cvsu-sports-management/1.png", 
+        "/assets/images/cvsu-sports-management/2.png", 
+        "/assets/images/cvsu-sports-management/3.png", 
+        "/assets/images/cvsu-sports-management/4.png", 
+        "/assets/images/cvsu-sports-management/5.png", 
+        "/assets/images/cvsu-sports-management/6.png", 
+        "/assets/images/cvsu-sports-management/7.png", 
+        "/assets/images/cvsu-sports-management/8.png", 
+        "/assets/images/cvsu-sports-management/9.png", 
+        "/assets/images/cvsu-sports-management/10.png", 
+        "/assets/images/cvsu-sports-management/11.png", 
+        "/assets/images/cvsu-sports-management/12.png", 
+        "/assets/images/cvsu-sports-management/13.png", 
+        "/assets/images/cvsu-sports-management/14.png", 
+        "/assets/images/cvsu-sports-management/15.png", 
+        "/assets/images/cvsu-sports-management/16.png", 
       ],
       sourceCodeUrl: "https://github.com/jaencna/Sports-Management-System",
     },
@@ -86,14 +86,14 @@ function AllProjects() {
         "A scalable platform for pet owners to connect, share, and create pet-related content with advanced user management and security features.",
       techStack: ["HTML & CSS", "Bootstrap", "PHP", "MySQL"],
       images: [
-        "/portfolio/assets/images/only-pets/1.png", 
-        "/portfolio/assets/images/only-pets/2.png",
-        "/portfolio/assets/images/only-pets/3.png", 
-        "/portfolio/assets/images/only-pets/4.png", 
-        "/portfolio/assets/images/only-pets/5.png", 
-        "/portfolio/assets/images/only-pets/6.png", 
-        "/portfolio/assets/images/only-pets/7.png", 
-        "/portfolio/assets/images/only-pets/8.png", 
+        "/assets/images/only-pets/1.png", 
+        "/assets/images/only-pets/2.png",
+        "/assets/images/only-pets/3.png", 
+        "/assets/images/only-pets/4.png", 
+        "/assets/images/only-pets/5.png", 
+        "/assets/images/only-pets/6.png", 
+        "/assets/images/only-pets/7.png", 
+        "/assets/images/only-pets/8.png", 
       ],
       sourceCodeUrl: "#",
     },
@@ -107,7 +107,7 @@ function AllProjects() {
       }`}
     >
       <Link
-        to="/portfolio"
+        to="/"
         className="flex items-center gap-2 text-[#48A6A7] hover:text-[#006A71] transition-colors mb-8"
       >
         <ArrowLeftIcon className="w-5 h-5" />
