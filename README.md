@@ -23,7 +23,37 @@ npm install react-icons
 npm install swiper
 
 🗂️ Project Structure
-team-portfolio/ ├── public/ │ ├── index.html │ └── assets/ │ └── images/ │ ├── eye-c-you/ │ ├── cvsu-management-system/ │ ├── cvsu-sports-management/ │ └── developers/ ├── src/ │ ├── components/ │ │ ├── Navbar.jsx │ │ ├── MobileMenu.jsx │ │ ├── LoadingScreen.jsx │ │ ├── RevealOnScroll.jsx │ │ ├── ScrollUpButton.jsx │ │ └── sections/ │ │ ├── Home.jsx │ │ ├── About.jsx │ │ ├── Team.jsx │ │ ├── Projects.jsx │ │ └── Contact.jsx │ ├── pages/ │ │ └── Allprojects.jsx │ ├── App.jsx │ ├── App.css │ ├── index.css │ ├── main.jsx ├── package.json ├── vite.config.js └── README.md
+team-portfolio/
+├── public/
+│   ├── index.html
+│   └── assets/
+│       └── images/
+│           ├── eye-c-you/
+│           ├── cvsu-management-system/
+│           ├── cvsu-sports-management/
+│           └── developers/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── MobileMenu.jsx
+│   │   ├── LoadingScreen.jsx
+│   │   ├── RevealOnScroll.jsx
+│   │   ├── ScrollUpButton.jsx
+│   │   └── sections/
+│   │       ├── Home.jsx
+│   │       ├── About.jsx
+│   │       ├── Team.jsx
+│   │       ├── Projects.jsx
+│   │       └── Contact.jsx
+│   ├── pages/
+│   │   └── Allprojects.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   ├── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
 
 🛠️ Setup and Installation
 
