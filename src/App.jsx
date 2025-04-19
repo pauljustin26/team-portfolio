@@ -49,7 +49,7 @@ function App() {
               </>
             }
           />
-          <Route path="/" element={<AllProjects />} />
+          <Route path="/projects" element={<AllProjects />} />
         </Routes>
       </div>
     </Router>

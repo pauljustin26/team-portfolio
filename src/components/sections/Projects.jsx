@@ -37,7 +37,7 @@ const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <Link
-                  to="/portfolio/projects"
+                  to="/projects"
                   className="text-[#48A6A7] hover:text-[#006A71] transition-colors my-4"
                 >
                   View Project →
@@ -67,7 +67,7 @@ const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <Link
-                  to="/portfolio/projects"
+                  to="/projects"
                   className="text-[#48A6A7] hover:text-[#006A71] transition-colors my-4"
                 >
                   View Project →
@@ -97,7 +97,7 @@ const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <Link
-                  to="/portfolio/projects"
+                  to="/projects"
                   className="text-[#48A6A7] hover:text-[#006A71] transition-colors my-4"
                 >
                   View Project →
@@ -128,7 +128,7 @@ const Projects = () => {
               </div>
               <div className="flex justify-between items-center ">
                 <Link
-                  to="/portfolio/projects"
+                  to="/projects"
                   className="text-[#48A6A7] hover:text-[#006A71] transition-colors my-4"
                 >
                   View Project →
