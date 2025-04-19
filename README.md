@@ -1,52 +1,111 @@
-# React + Vite
+Team Portfolio — React + Vite
+This project is a team portfolio website built using React and Vite, styled with Tailwind CSS.
+It includes smooth animations, responsive design, and integration with services like EmailJS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tech Stack
+React (frontend library)
 
-Currently, two official plugins are available:
+Vite (build tool)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tailwind CSS (utility-first CSS framework)
 
-## Expanding the ESLint configuration
+EmailJS (email service)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Heroicons (icon library)
 
+React Icons (icon library)
 
-Dependencies:
+📦 Installed Dependencies
+bash
+Copy
+Edit
 npm install @tailwindcss/vite
 npm install emailjs-com
 npm install @heroicons/react
 npm install react-icons
-
-
+🗂️ Project Structure
+pgsql
+Copy
+Edit
 team-portfolio/
 ├── public/
-│   └── index.html
-│   ├── assets/
-│       └── images/            
+│   ├── index.html
+│   └── assets/
+│       └── images/
 │           ├── eye-c-you/
 │           ├── cvsu-management-system/
 │           ├── cvsu-sports-management/
 │           └── developers/
 ├── src/
 │   ├── components/
-│       ├── Navbar.jsx
-│       ├── MobileMenu.jsx
-│       ├── LoadingScreen.jsx
-│       ├── RevealOnScroll.jsx
-│       ├── ScrollUpButton.jsx
-│       └── sections/
-│           ├── Home.jsx
-│           ├── About.jsx
-│           ├── Team.jsx
-│           ├── Projects.jsx
-│           └── Contact.jsx
-│   ├──pages/
-│   │  ├── Allprojects.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── MobileMenu.jsx
+│   │   ├── LoadingScreen.jsx
+│   │   ├── RevealOnScroll.jsx
+│   │   ├── ScrollUpButton.jsx
+│   │   └── sections/
+│   │       ├── Home.jsx
+│   │       ├── About.jsx
+│   │       ├── Team.jsx
+│   │       ├── Projects.jsx
+│   │       └── Contact.jsx
+│   ├── pages/
+│   │   └── Allprojects.jsx
 │   ├── App.jsx
 │   ├── App.css
+│   ├── index.css
 │   ├── main.jsx
-│   └── index.css
 ├── package.json
 ├── vite.config.js
 └── README.md
+🛠️ Setup and Installation
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/team-portfolio.git
+Navigate to the project folder:
+
+bash
+Copy
+Edit
+cd team-portfolio
+Install the dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+Build for production:
+
+bash
+Copy
+Edit
+npm run build
+📄 Notes
+Base URL:
+In vite.config.js, the base is set to / for correct deployment.
+
+Assets:
+All static assets like images are stored inside the public/assets directory.
+
+Deployment:
+The project is ready to deploy on platforms like Vercel, Netlify, or any static hosting provider.
+
+🔗 Useful Links
+Vite Documentation
+
+React Documentation
+
+Tailwind CSS Documentation
+
+EmailJS Documentation
+
+Made with ❤️ by the Team.

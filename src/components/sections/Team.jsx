@@ -15,7 +15,7 @@ const Team = () => {
     {
       name: "Joseph Edrick E. Mirasol",
       role: "Backend Developer",
-      bio: "Medyo Babaero",
+      bio: "if you think you can do it, you can.",
       avatar: "/assets/images/developers/jed.jpg",
       github: "https://github.com/SHYET25",
       linkedin: "",
