@@ -32,7 +32,7 @@ function App() {
         <ScrollUpButton />
         <Routes>
           <Route
-            path="/portfolio"
+            path="/"
             element={
               <>
                 <Navbar
@@ -49,7 +49,7 @@ function App() {
               </>
             }
           />
-          <Route path="/portfolio/projects" element={<AllProjects />} />
+          <Route path="/projects" element={<AllProjects />} />
         </Routes>
       </div>
     </Router>
