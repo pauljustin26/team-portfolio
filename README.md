@@ -22,35 +22,33 @@ npm install @heroicons/react
 npm install react-icons
 npm install swiper
 
-🗂️ Project Structure
-team-portfolio/
+📦 Project Structure
 ├── public/
-│   ├── index.html
-│   └── assets/
-│       └── images/
-│           ├── eye-c-you/
-│           ├── cvsu-management-system/
-│           ├── cvsu-sports-management/
-│           └── developers/
+│   └── index.html
+├── assets/
+│   └── images/
+├── eye-c-you/
+├── cvsu-management-system/
+├── cvsu-sports-management/
+├── developers/
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.jsx
 │   │   ├── MobileMenu.jsx
 │   │   ├── LoadingScreen.jsx
 │   │   ├── RevealOnScroll.jsx
-│   │   ├── ScrollUpButton.jsx
-│   │   └── sections/
-│   │       ├── Home.jsx
-│   │       ├── About.jsx
-│   │       ├── Team.jsx
-│   │       ├── Projects.jsx
-│   │       └── Contact.jsx
+│   │   └── ScrollUpButton.jsx
+│   ├── sections/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Team.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Contact.jsx
 │   ├── pages/
-│   │   └── Allprojects.jsx
-│   ├── App.jsx
-│   ├── App.css
+│   │   ├── AllProjects.jsx
+│   │   └── App.jsx
 │   ├── index.css
-│   ├── main.jsx
+│   └── main.jsx
 ├── package.json
 ├── vite.config.js
 └── README.md
