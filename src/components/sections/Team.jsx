@@ -18,7 +18,7 @@ const Team = () => {
       bio: "if you think you can do it, you can.",
       avatar: "/assets/images/developers/jed.jpg",
       github: "https://github.com/SHYET25",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/joseph-mirasol-2ba11a361/",
       ig: "https://www.instagram.com/jed_mirasol/",
     },
     {
