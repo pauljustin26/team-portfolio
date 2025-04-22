@@ -50,15 +50,15 @@ const Team = () => {
       ig: "https://www.instagram.com/iam_nath04",
     },
 
-    {
-      name: "Michael Davenfort V. Pitoc",
-      role: "UI/UX Designer",
-      bio: "...",
-      avatar: "/assets/images/developers/miko.jpg",
-      github: "",
-      linkedin: "",
-      ig: "",
-    },
+    // {
+    //   name: "Michael Davenfort V. Pitoc",
+    //   role: "UI/UX Designer",
+    //   bio: "...",
+    //   avatar: "/assets/images/developers/miko.jpg",
+    //   github: "",
+    //   linkedin: "",
+    //   ig: "",
+    // },
   ];
 
   return (
