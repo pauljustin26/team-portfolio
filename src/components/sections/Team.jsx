@@ -44,7 +44,7 @@ const Team = () => {
       name: "Nathaniel L. Relox",
       role: "QA Tester",
       bio: "trying new things that help me become a better person.",
-      avatar: "/assets/images/developers/nats.png",
+      avatar: "/assets/images/developers/nats.jpg",
       github: "https://github.com/reloxnathaniel",
       linkedin: "https://www.linkedin.com/in/nathaniel-relox-212a0030b",
       ig: "https://www.instagram.com/iam_nath04",
